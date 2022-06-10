@@ -1,0 +1,32 @@
+body{
+  background-color: bisque;
+}
+
+h1,h2,h3,p{
+  font-family: fantasy;
+}
+
+a#main{
+  text-decoration: none;
+  color: black;
+  font-family: fantasy;
+  font-size: 25px;
+  padding: 30px;
+  float: right;
+  margin-right: 20px;
+
+}
+a#main:hover{
+  transform: scale(1.2);
+  transition-duration: .3s;
+}
+
+a#title{
+  font-family: 'Festive', cursive;
+  text-decoration: none;
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-top: 50px;
+}
